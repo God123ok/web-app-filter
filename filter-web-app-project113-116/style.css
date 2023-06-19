@@ -1,0 +1,19 @@
+.header{
+    font-size: 40px;
+}
+
+.btn-info:hover{
+    background-color:rgb(4, 245, 84);
+}
+
+canvas{
+    animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+margin-top: 70px;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 40px rgb(248, 69, 69)}
+    to{box-shadow: 1px 1px 40px rgb(199, 253, 2)}
+}
